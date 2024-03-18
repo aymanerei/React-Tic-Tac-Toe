@@ -94,6 +94,7 @@ body {
   padding: 0;
   text-align: center;
   width: 150px;
+  color: #000;
 }
 
 @media (max-width: 768px) {
@@ -102,6 +103,7 @@ body {
     line-height: 75px;
     height: 75px;
     width: 75px;
+    color: #000;
   }
 }
 

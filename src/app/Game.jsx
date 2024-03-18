@@ -96,14 +96,14 @@ class Game extends React.Component {
           <Clock />
         </div>
         <div className="row justify-content-center mt-5">
-          <div className="col-auto col-lg-6">
+          <div className="col-auto">
             <Board
               squares={current.squares}
               winnerSquares={winnerRow}
               onClick={(i) => this.handleClick(i)}
             />
           </div>
-          <div className="col-lg-6 mt-3 mt-lg-0">
+          <div className="col-auto mt-3 mt-lg-0">
             <div className="container">
               <div className="row justify-content-center">
                 <div
@@ -114,7 +114,7 @@ class Game extends React.Component {
                 </div>
               </div>
               <div className="row justify-content-center">
-                <div className="col-6">
+                <div className="col-auto">
                   <button
                     type="button"
                     className="btn btn-secondary button w-100"
@@ -123,7 +123,7 @@ class Game extends React.Component {
                     <span className="roboto-medium">Sort moves</span>
                   </button>
                 </div>
-                <div className="col-6">
+                <div className="col-auto">
                   <button
                     type="button"
                     className="btn btn-danger button w-100"
